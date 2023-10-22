@@ -13,5 +13,9 @@ pip install memory-profiler psutil
 
 # run ppo
 python ./ppo_sb3.py
+  run train() for training 
+  run test("./checkpoints/....") for testing, replace the path with the path of the checkpoint you want to test 
 # run dqn
 python ./dqn.py
+    run train() for training 
+    run test("./checkpoints/....") for testing, replace the path with the path of the checkpoint you want to test
